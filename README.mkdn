@@ -1,4 +1,4 @@
-AOSiP
+Project Kasumi // Stale
 ===========
 
 Getting Started
@@ -7,14 +7,14 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the AOSiP trees, use a command like this:
+To initialize your local repository using the Project Kasumi trees, use a command like this:
 
 ```bash
-repo init -u ssh://git@github.com/AOSiP/platform_manifest.git -b nougat-mr2
+repo init -u ssh://git@github.com/ProjectKasumiStale/android -b kasumi-nougat-mr2
 ```
 Then to sync up:
 ```bash
-repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```
 As the AOSP/CAF repos aren't ever updated till we update the tag we're tracking, for subsequent syncs simply run
 ```bash
@@ -23,21 +23,21 @@ As the AOSP/CAF repos aren't ever updated till we update the tag we're tracking,
 Building the source
 ---------------
 
-The source at AOSiP is well configured for building.
+The source at Project Kasumi is well configured for building.
 
 ```bash
 source build/envsetup.sh
-lunch aosip_device-userdebug
-time mka kronic
+lunch kasumi_device-userdebug
+make kronic
 ```
 
 If you would like to limit the number of threads being used in a build to X, change the last command to
 
 ```bash
-time make -jX kronic
+make -jX kronic
 ```
 
 Contributing
 ------------
 
-Please push any patches to our [Gerrit Code Review](http://review.aosiprom.com)
+All you need for contributing is opening a new PR towards the respective repository.
