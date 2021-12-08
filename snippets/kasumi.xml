@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <project path="build" name="android_build" remote="kasumi" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
     <project path="vendor/kasumi" name="android_vendor_kasumi" remote="kasumi" />
 </manifest>
