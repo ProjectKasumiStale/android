@@ -1,43 +1,41 @@
-Project Kasumi // Stale
-===========
+<div align="center">
+<h1>Project Kasumi</h1>
+</br>
+<strong><i> Another weebified custom ROM aiming to be a home for weebs. </i></strong>
+</br>
 
-Getting Started
+Getting started
 ---------------
+To get started with Android/Project Kasumi, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+  
+Credits
+-------
+- [**AOSiP**](https://github.com/AOSiP)
+- [**LineageOS**](https://github.com/LineageOS)
+- [**OmniROM**](https://github.com/OmniROM)
+- [**AospExtended**](https://github.com/AospExtended)
+*********
+<a href="https://twitter.com/Kasumi_Project">
+<img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge">
+</a>
+<a href="https://t.me/ProjectKasumi">
+<img src="https://img.shields.io/badge/Telegram-Chat-green?style=for-the-badge">
+</a>
 
-To get started with Android, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
-
-To initialize your local repository using the Project Kasumi trees, use a command like this:
-
-```bash
-repo init -u ssh://git@github.com/ProjectKasumiStale/android -b kasumi-nougat-mr2
+To initialize your local repository using your trees, use a command like this:  
+```
+repo init --depth=1 -u git://github.com/ProjectKasumiStale/android.git -b kasumi-nougat-mr2
 ```
 Then to sync up:
-```bash
-repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```
-As the AOSP/CAF repos aren't ever updated till we update the tag we're tracking, for subsequent syncs simply run
-```bash
-./sync.sh
+repo sync
 ```
-Building the source
----------------
-
-The source at Project Kasumi is well configured for building.
-
-```bash
-source build/envsetup.sh
-lunch kasumi_device-userdebug
-make kronic
+And to start build:
+```
+. build/envsetup.sh
+lunch kasumi_<devicecodename>-userdebug
+mka bandori
 ```
 
-If you would like to limit the number of threads being used in a build to X, change the last command to
-
-```bash
-make -jX kronic
-```
-
-Contributing
-------------
-
-All you need for contributing is opening a new PR towards the respective repository.
+Keep a note that this version of Kasumi is basically rebranded AOSiP and might have a lot of thimgs broken.
