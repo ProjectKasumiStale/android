@@ -105,7 +105,6 @@
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" remote="aosip" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aosip" />
   <project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" remote="aosip" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
