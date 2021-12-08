@@ -557,5 +557,7 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/aosip.xml" />
   <include name="snippets/laos.xml" />
-  
+
+  <!-- Kasumi rebrand -->
+  <include name="snippets/kasumi.xml" />
 </manifest>
