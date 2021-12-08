@@ -12,7 +12,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
   <project path="external/android-clat" name="platform_external_android-clat" remote="aosip" />
   <project path="external/apache-http" name="platform_external_apache-http" remote="aosip" />
   <project path="external/boringssl" name="platform_external_boringssl" remote="aosip" />
