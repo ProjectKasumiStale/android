@@ -13,7 +13,8 @@
            revision="refs/heads/nougat-mr2" />
 
   <remote  name="devices"
-           fetch="https://github.com/AOSiP-Devices" />
+           fetch="https://github.com/Kasumi-Devices"
+           revision="kasumi-nougat-mr2" />
 
   <remote  name="kasumi"
            fetch="https://github.com/ProjectKasumiStale"
