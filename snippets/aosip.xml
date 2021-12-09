@@ -40,7 +40,6 @@
   <project path="external/yaffs2" name="platform_external_yaffs2" remote="aosip" />
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />

@@ -4,6 +4,7 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kasumi" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="kasumi" />
     <project path="packages/apps/Closet" name="android_packages_apps_Closet" remote="kasumi" />
     <project path="packages/apps/Launcher3" name="AospExtended/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="7.x" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="kasumi" />
